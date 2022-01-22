@@ -1,0 +1,37 @@
+/**
+ * 配置 sidebar
+ */
+module.exports = [
+  {
+    title: '实践技巧',
+    // collapsable: false,
+    path: '/experience-tricks/',
+    // sidebarDepth: 1,
+    children: [
+      {
+        title: 'mongodb 查询数组',
+        path: '/experience-tricks/mongodb-find-array',
+      },
+      {
+        title: 'nodejs eventloop',
+        path: '/experience-tricks/nodejs-eventloop',
+      }
+    ]
+  },
+  {
+    title: 'VuePress',
+    // collapsable: false,
+    path: '/vuepress/',
+    // sidebarDepth: 1,
+    children: [
+      {
+        title: '初始化项目',
+        path: '/vuepress/setup'
+      },
+      {
+        title: '基础配置',
+        path: '/vuepress/config'
+      }
+    ]
+  },
+]
