@@ -9,11 +9,11 @@ module.exports = [
     // sidebarDepth: 1,
     children: [
       {
-        title: 'mongodb 查询数组',
+        title: 'mongodb 查询数组元素',
         path: '/experience-tricks/mongodb-find-array',
       },
       {
-        title: 'nodejs eventloop',
+        title: 'nodejs 事件流',
         path: '/experience-tricks/nodejs-eventloop',
       }
     ]
