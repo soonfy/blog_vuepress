@@ -31,7 +31,11 @@ module.exports = [
       {
         title: '基础配置',
         path: '/vuepress/config'
-      }
+      },
+      {
+        title: '百度统计',
+        path: '/vuepress/baidu-tongji'
+      },
     ]
   },
 ]

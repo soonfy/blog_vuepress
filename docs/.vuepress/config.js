@@ -11,7 +11,17 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/logo.ico' }],
     ['meta', { name: 'keywords', content: 'soonfy,VuePress,blog' }],
-    ['meta', { name: 'description', content: '个人博客' }]
+    ['meta', { name: 'description', content: '个人博客' }],
+    ['script', {},
+    `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?26403e9a70a3edccd5fc56cae5a4e8f1";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `],
   ],
   themeConfig: {
     logo: '/logo.png', // 网站 logo
