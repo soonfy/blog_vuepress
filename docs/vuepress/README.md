@@ -7,5 +7,5 @@
 1. [展示图片](/vuepress/medium-zoom)
 1. [激活侧边栏](/vuepress/active-header-links)
 1. [回到顶部](/vuepress/back-to-top)
-1. [鼠标特效]](/vuepress/click-mouse-effect)
+1. [鼠标特效](/vuepress/click-mouse-effect)
 1. [问题汇总](/vuepress/problems)
