@@ -36,6 +36,30 @@ module.exports = [
         title: '百度统计',
         path: '/vuepress/baidu-tongji'
       },
+      {
+        title: '评论',
+        path: '/vuepress/comment'
+      },
+      {
+        title: '展示图片',
+        path: '/vuepress/medium-zoom'
+      },
+      {
+        title: '激活侧边栏',
+        path: '/vuepress/active-header-links'
+      },
+      {
+        title: '回到顶部',
+        path: '/vuepress/back-to-top'
+      },
+      {
+        title: '鼠标特效',
+        path: '/vuepress/click-mouse-effect'
+      },
+      {
+        title: '问题汇总',
+        path: '/vuepress/problems'
+      },
     ]
   },
 ]
