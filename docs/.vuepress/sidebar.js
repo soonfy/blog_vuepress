@@ -13,9 +13,13 @@ module.exports = [
         path: '/experience-tricks/mongodb-find-array',
       },
       {
+        title: 'mongodb 更新数组元素',
+        path: '/experience-tricks/mongodb-array',
+      },
+      {
         title: 'nodejs 事件流',
         path: '/experience-tricks/nodejs-eventloop',
-      }
+      },
     ]
   },
   {

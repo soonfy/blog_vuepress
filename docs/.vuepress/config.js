@@ -57,6 +57,10 @@ module.exports = {
         scrollOffset: 40,
       },
     },
+    '@vuepress/plugin-active-header-links': {
+      sidebarLinkSelector: '.sidebar-link',
+      headerAnchorSelector: '.header-anchor',
+    },
     '@vuepress/back-to-top': {},
   },
 }
