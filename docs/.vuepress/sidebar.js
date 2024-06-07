@@ -9,12 +9,16 @@ module.exports = [
     // sidebarDepth: 1,
     children: [
       {
+        title: 'mongodb 更新普通元素',
+        path: '/experience-tricks/mongodb-field-update',
+      },
+      {
         title: 'mongodb 查询数组元素',
-        path: '/experience-tricks/mongodb-find-array',
+        path: '/experience-tricks/mongodb-array-find',
       },
       {
         title: 'mongodb 更新数组元素',
-        path: '/experience-tricks/mongodb-array',
+        path: '/experience-tricks/mongodb-array-update',
       },
       {
         title: 'nodejs 事件流',
